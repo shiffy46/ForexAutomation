@@ -52,5 +52,6 @@ def scrapperName(url):
 #testing scripts to run and see if it is working
 price = scrapperValue("https://www.tradingview.com/chart/?symbol=TVC:DXY")
 name = scrapperName("https://www.tradingview.com/chart/?symbol=TVC:DXY")
+print("hello")
 print(price)
 print(name)
